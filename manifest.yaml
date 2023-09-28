@@ -1,0 +1,13 @@
+author:
+  name: Ben Mills
+  email: ben@unfiniti.com
+platforms:
+  - macos
+setup:
+  macos:
+    steps:
+    - name: Configure files
+      files:
+      - source: com.googlecode.iterm2.plist
+        target: $HOME/.config/iterm2/com.googlecode.iterm2.plist
+        operation: symlink
